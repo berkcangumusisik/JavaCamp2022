@@ -25,6 +25,18 @@ public class Main {
             System.out.println(okYonu);
         }
 
+        // Array veri tipi birden fazla veriyi tutar
+        String[] krediler = {"Hızlı Kredi","Maaşını Halkban'tan Alanlar","Mutlu Emekli"};
+        System.out.println(krediler[0]); // Arraylerde ilk eleman 0'dan başlar. Kodlamada saymaya 0'dan başlar.
+        System.out.println(krediler[1]);
+        System.out.println(krediler[2]);
+        System.out.println("-----------------------------------");
+        // for döngüsü
+        for (int i = 0; i < krediler.length; i++) {
+            System.out.println(krediler[i]);
+        }
+
+        System.out.println("-----------------------------------");
     }
 
 }
@@ -45,4 +57,8 @@ DeğişkenTipi değişkenAdı = değer;
     // Koşul sağlanmadığında çalışacak kodlar
 }
 
+* For Döngüsü
+* for(başlangıç; koşul; artış) {
+    // Koşul sağlandığı sürece çalışacak kodlar
+}
 *  */
