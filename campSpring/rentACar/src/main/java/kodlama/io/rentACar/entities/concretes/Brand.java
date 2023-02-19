@@ -13,9 +13,9 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 public class Brand {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Id // @Id ile primary key olduğunu belirttik.
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // @GeneratedValue ile primary key'in otomatik artacağını belirttik.
+    @Column(name = "id") // @Column ile de kolonun adını belirttik.
     private int id;
 
     @Column(name = "name")
